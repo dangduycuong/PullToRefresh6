@@ -1,0 +1,4 @@
+Pull To refresh:
+	- dùng làm mới nội dung, data trên 1 tableView hoặc collectionView
+	- Vuốt màn hình xuống để tải lại data cho tableView hoặc collectionView
+	- Cập nhật bên trên
