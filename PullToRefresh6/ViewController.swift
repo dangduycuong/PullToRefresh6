@@ -71,3 +71,10 @@ class ViewController: UIViewController, UITabBarDelegate, UITableViewDataSource 
 
 }
 
+extension ViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        title = ""
+        let vc = Storyboard.Main.rEQRESViewController()
+        navigationController?.pushViewController(vc, animated: true)
+    }
+}
